@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    place-content: center;
+    background:  -webkit-linear-gradient(90deg, rgba(27,209,52,1) 0%, rgba(253,45,45,1) 13%, rgba(27,209,52,1) 29%, rgba(253,45,45,1) 46%, rgba(27,209,52,1) 57%, rgba(253,45,45,1) 70%, rgba(27,209,52,1) 84%, rgba(253,45,45,1) 100%);
+
+}
+
+.firstdiv {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: -webkit-linear-gradient(0deg, rgba(27, 209, 52, 1) 0%, rgba(253, 45, 45, 1) 78%);
+}
+
+.firsth2 {
+    background: -webkit-linear-gradient(90deg, rgba(253, 29, 246, 1) 7%, rgba(252, 208, 69, 1) 100%);
+    border-radius: 1rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.firstp {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(circle, rgba(251, 63, 63, 1) 31%, rgba(216, 252, 70, 1) 100%);
+    height: 100px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.hobbies {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400px;
+}
+
+.ocupation {
+font-family: 'Dancing Script', cursive;
+font-weight: 700px;
+font-size: 1.2rem;
+}
+
+.hobbies{
+font-family: 'Press Start 2P', cursive;
+}
+
+.motivation{
+font-family: 'Chakra Petch', sans-serif;
+font-size: 1.1rem; 
+}
